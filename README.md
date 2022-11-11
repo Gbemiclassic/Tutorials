@@ -34,7 +34,7 @@ SELECT my_number
 FROM number_series ;	   -- } Invocation Statement
 ```
 
-Example 2: Building on the query in example 1, we can also get an output of odd numbers between 1 to 100. This is achieved by add a condition in the Invocation Statement (WHERE my_number % 2 = 1)
+Example 2: Building on the query in example 1, we can also get an output of odd numbers between 1 to 100. This is achieved by adding a condition in the Invocation Statement (WHERE my_number % 2 = 1)
 
 ```
 WITH RECURSIVE odd_number_series AS
